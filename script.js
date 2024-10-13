@@ -15,7 +15,7 @@ const scene = new THREE.Scene();
 let robot;
 let mixer;
 const loader = new GLTFLoader();
-loader.load('/mech_drone.glb',
+loader.load('mech_drone.glb',
     function (gltf) {
         robot = gltf.scene;
         scene.add(robot);
